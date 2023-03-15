@@ -65,8 +65,8 @@ export default function RootLayout({ children }) {
       </head>
       <body
         style={{
-          // display: "flex",
-          // justifyContent: "center"
+          display: "flex",
+          justifyContent: "center",
           color: Colours.blue
         }}
       >
@@ -88,7 +88,7 @@ export default function RootLayout({ children }) {
               align="center"
             >
               <Image
-                src="/Logo.svg"
+                src="/assets/Logo.svg"
                 width={50}
                 height={50}
                 alt="logo"
@@ -253,9 +253,10 @@ export default function RootLayout({ children }) {
                   align="center"
               >
                   <Image
-                    src="/Logo.svg"
+                    src="/assets/Logo.svg"
                     width={130}
                     height={130}
+                    alt="logo"
                   />
                   <Text
                     className={cormorant.className}
