@@ -6,9 +6,7 @@ import { Button, Flex, Text } from '@mantine/core'
 import { Colours } from '@/colours'
 import { HeroSection } from '@/components/home/hero'
 import { AboutSection } from '@/components/home/about'
-
-const inter = Inter({ subsets: ['latin'] });
-
+import { ServicesSection } from '@/components/home/services'
 
 export default function Home() {
   return (
@@ -17,7 +15,8 @@ export default function Home() {
       gap={100}
     >
       <HeroSection />
-      <AboutSection/>
+      <AboutSection />
+      <ServicesSection/>
     </Flex>
   )
 }

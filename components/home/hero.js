@@ -4,9 +4,9 @@ import { Button, Flex, Text } from "@mantine/core";
 import { Cormorant, Roboto, Roboto_Serif } from "next/font/google";
 import Image from "next/image";
 
-const cormorant = Cormorant({ subsets: ['latin'] });
-const robotoSerif = Roboto_Serif({ subsets: ['latin'] });
-const roboto = Roboto({ subsets: ['latin'], weight: '400' });
+export const cormorant = Cormorant({ subsets: ['latin'] });
+export const robotoSerif = Roboto_Serif({ subsets: ['latin'] });
+export const roboto = Roboto({ subsets: ['latin'], weight: '400' });
 
 export const HeroSection = () => {
     return (
@@ -15,6 +15,7 @@ export const HeroSection = () => {
             sx={{
                 padding: "20px"
             }}
+            gap={30}
         >
             <Text
                 sx={{
@@ -70,7 +71,8 @@ export const HeroSection = () => {
                                     fontWeight: 500,
                                     "&:hover": {
                                         backgroundColor: Colours.red
-                                    }
+                                    },
+                                    width: "200px"
                                 }}
                             >
                                 Book a session
