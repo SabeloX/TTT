@@ -5,6 +5,7 @@ import styles from './page.module.css'
 import { Button, Flex, Text } from '@mantine/core'
 import { Colours } from '@/colours'
 import { HeroSection } from '@/components/home/hero'
+import { AboutSection } from '@/components/home/about'
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -13,9 +14,10 @@ export default function Home() {
   return (
     <Flex
       direction="column"
-      gap={20}
+      gap={100}
     >
-      <HeroSection/>
+      <HeroSection />
+      <AboutSection/>
     </Flex>
   )
 }

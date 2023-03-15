@@ -10,7 +10,12 @@ const roboto = Roboto({ subsets: ['latin'], weight: '400' });
 
 export const HeroSection = () => {
     return (
-        <>
+        <Flex
+            direction="column"
+            sx={{
+                padding: "20px"
+            }}
+        >
             <Text
                 sx={{
                     fontSize: "55px",
@@ -80,6 +85,6 @@ export const HeroSection = () => {
                     alt="hero image"
                 />
             </Flex>
-        </>
+        </Flex>
     )
 }

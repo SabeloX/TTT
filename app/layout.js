@@ -134,9 +134,6 @@ export default function RootLayout({ children }) {
           </Flex>
         </nav>
         <Flex
-          sx={{
-            padding: "20px"
-          }}
           direction="column"
         >
           {children}
