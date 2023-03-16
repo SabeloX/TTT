@@ -1,9 +1,11 @@
 import { Colours } from "@/colours"
 import { Flex, Text } from "@mantine/core"
 import Image from "next/image"
+import { useRouter } from "next/navigation"
 import { robotoSerif } from "../home/hero"
 
 export const Navbar = ({ navbar, currentRoute }) => {
+  const router = useRouter();
     return (
         <nav>
           <Flex

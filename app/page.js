@@ -1,15 +1,11 @@
 "use client"
-import Image from 'next/image'
-import { Inter, Cormorant, Roboto_Serif, Roboto } from 'next/font/google'
-import styles from './page.module.css'
-import { Button, Flex, Text } from '@mantine/core'
-import { Colours } from '@/colours'
+import { Flex } from '@mantine/core'
 import { HeroSection } from '@/components/home/hero'
 import { AboutSection } from '@/components/home/about'
 import { ServicesSection } from '@/components/home/services'
 import { TestimonySection } from '@/components/home/testimony'
 
-export default function Home() {
+function Home() {
   return (
     <Flex
       direction="column"
@@ -25,3 +21,5 @@ export default function Home() {
     </Flex>
   )
 }
+
+export default Home;

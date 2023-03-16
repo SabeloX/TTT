@@ -3,12 +3,14 @@ import { Colours } from "@/colours";
 import { Button, Flex, Text } from "@mantine/core";
 import { Cormorant, Roboto, Roboto_Serif } from "next/font/google";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export const cormorant = Cormorant({ subsets: ['latin'] });
 export const robotoSerif = Roboto_Serif({ subsets: ['latin'] });
 export const roboto = Roboto({ subsets: ['latin'], weight: '400' });
 
 export const HeroSection = () => {
+    const router = useRouter();
     return (
         <Flex
             direction="column"
@@ -76,6 +78,7 @@ export const HeroSection = () => {
                                     fontSize: "20px",
                                     height: "50px"
                                 }}
+                                onClick={() => router.push("/book-a-session")}
                             >
                                 Book a session
                             </Button>

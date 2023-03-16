@@ -57,7 +57,7 @@ export default function RootLayout({ children }) {
           direction="column"
           sx={{
             maxWidth: "1366px",
-
+            width: "100%"
           }}
         >
           <Navbar navbar={navbar} currentRoute={currentRoute} />
