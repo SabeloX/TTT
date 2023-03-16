@@ -1,0 +1,17 @@
+.testimony {
+    animation-name: Testimony;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    position: relative;
+}
+
+@keyframes Testimony {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}

@@ -7,16 +7,21 @@ import { Colours } from '@/colours'
 import { HeroSection } from '@/components/home/hero'
 import { AboutSection } from '@/components/home/about'
 import { ServicesSection } from '@/components/home/services'
+import { TestimonySection } from '@/components/home/testimony'
 
 export default function Home() {
   return (
     <Flex
       direction="column"
       gap={100}
+      sx={{
+        paddingBottom: "100px"
+      }}
     >
       <HeroSection />
       <AboutSection />
-      <ServicesSection/>
+      <ServicesSection />
+      <TestimonySection/>
     </Flex>
   )
 }

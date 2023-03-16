@@ -33,9 +33,9 @@ export const ServicesSection = () => {
                         sx={{
                             boxShadow: "2px 2px 8px rgba(0,0,0,16%)",
                             backgroundColor: Colours.white,
-                            borderRadius: "20px",
+                            borderRadius: "30px",
                             width: "400px",
-                            height: "320px",
+                            height: "380px",
                             color: Colours.blue,
                             padding: "60px 20px",
                             boxSizing: "border-box",
@@ -43,16 +43,20 @@ export const ServicesSection = () => {
                         }}
                         gap={20}
                         className={robotoSerif.className}
+                        key={index}
                     >
                         <Text
                             sx={{
-                                fontSize: "24px",
+                                fontSize: "28px",
                                 fontWeight: 600
                             }}
                         >
                             {item.label}
                         </Text>
-                        <Text>{ item.value }</Text>
+                        <Text
+                            sx={{
+                                fontSize: "20px"
+                            }}>{item.value}</Text>
                     </Flex>
                 ))
             }

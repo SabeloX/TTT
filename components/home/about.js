@@ -14,9 +14,11 @@ export const AboutSection = () => {
             sx={{
                 backgroundColor: Colours.red,
                 color: Colours.white,
-                height: "400px",
+                height: "300px",
                 padding: "20px",
-                textAlign: "center"
+                textAlign: "center",
+                // borderRadius: "30px",
+                boxShadow: "3px 3px 8px rgba(0,0,0,16%)"
             }}
             justify="center"
             align="centre"

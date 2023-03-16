@@ -19,7 +19,7 @@ export const HeroSection = () => {
         >
             <Text
                 sx={{
-                    fontSize: "55px",
+                    fontSize: "61px",
                     fontWeight: 600,
                     color: Colours.blue,
                     textAlign: "center"
@@ -41,7 +41,7 @@ export const HeroSection = () => {
                 >
                     <Text
                         sx={{
-                            fontSize: "56px",
+                            fontSize: "60px",
                             fontWeight: 400,
                             color: Colours.red,
                         }}
@@ -55,7 +55,7 @@ export const HeroSection = () => {
                     >
                         <Text
                             sx={{
-                                fontSize: "17px",
+                                fontSize: "20px",
                                 color: Colours.blue,
                                 fontWeight: "600"
                             }}
@@ -72,7 +72,9 @@ export const HeroSection = () => {
                                     "&:hover": {
                                         backgroundColor: Colours.red
                                     },
-                                    width: "200px"
+                                    width: "200px",
+                                    fontSize: "20px",
+                                    height: "50px"
                                 }}
                             >
                                 Book a session
