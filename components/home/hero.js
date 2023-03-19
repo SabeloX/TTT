@@ -69,11 +69,8 @@ export const HeroSection = () => {
                                 className={roboto.className}
                                 sx={{
                                     borderRadius: "10px",
-                                    backgroundColor: Colours.red,
+                                    backgroundColor: `${Colours.red} !important`,
                                     fontWeight: 500,
-                                    "&:hover": {
-                                        backgroundColor: Colours.red
-                                    },
                                     width: "200px",
                                     fontSize: "20px",
                                     height: "50px"

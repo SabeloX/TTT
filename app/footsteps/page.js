@@ -107,7 +107,7 @@ function Footsteps() {
                                 height: "480px",
                                 boxSizing: "border-box",
                                 // borderBottom: `1px solid ${Colours.blue}`
-                                backgroundColor: "#F4F5FF",
+                                backgroundColor: Colours.background,
                                 borderRadius: "20px",
                                 padding: "20px"
                             }}

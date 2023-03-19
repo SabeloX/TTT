@@ -87,12 +87,12 @@ function BookASession() {
             >
                 <Button
                     sx={{
-                        backgroundColor: Colours.red,
+                        backgroundColor: `${Colours.red} !important`,
                         color: Colours.white,
-                        width: "400px",
+                        width: "300px",
                         borderRadius: "10px"
                     }}
-                    onClick={() => router.push({ pathname: "/contact", query: "book-a-session" })}
+                    onClick={() => router.push("/contact")}
                 >
                     Request a quotation
                 </Button>
