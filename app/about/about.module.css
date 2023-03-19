@@ -1,0 +1,14 @@
+.image {
+    animation-name: Rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+@keyframes Rotate {
+    from {
+        transform: rotate3d(0,0,0,0deg);
+    }
+    to{
+        transform: rotate3d(1,1,1,360deg);
+    }
+}
